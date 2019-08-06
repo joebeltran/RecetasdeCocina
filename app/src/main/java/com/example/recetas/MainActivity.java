@@ -45,18 +45,18 @@ public class MainActivity extends AppCompatActivity {
         notas.add(new Nota("Caldo de Mariscos Rojos", "Ingredientes: Caldo de Pollo, Vino Rojo, Camarones, Caracol, Pescado"));
         notas.add(new Nota("Panqué de Limon", "Ingredientes: Mezcla para Pastel, Limones, Crema de Leche, Azucar, Grenetina"));
         notas.add(new Nota("Pan de Nata", "Ingredientes: Crema de Leche, Lecha Condensada, Nata Liquida, Masa para Pan"));
-        notas.add(new Nota("Pie de Limas", "Ingredientes:"));
-        notas.add(new Nota("Chessecake New York", "Ingredientes:"));
-        notas.add(new Nota("Tartaleta de Frutos Rojos", "Ingredientes:"));
-        notas.add(new Nota("Pie de Queso y Mango", "Ingredientes:"));
-        notas.add(new Nota("Galletas de Avena y Pasas", "Ingredientes:"));
-        notas.add(new Nota("Budin", "Ingredientes:"));
-        notas.add(new Nota("Tres Leches", "Ingredientes:"));
-        notas.add(new Nota("Sorbete de Fresa", "Ingredientes:"));
-        notas.add(new Nota("Granita de Sandia", "Ingredientes:"));
-        notas.add(new Nota("Fusión de Limonada Verde", "Ingredientes:"));
-        notas.add(new Nota("Horchata", "Ingredientes:"));
-        notas.add(new Nota("Tamarindo", "Ingredientes:"));
+        notas.add(new Nota("Pie de Limas", "Ingredientes: Galletas Maria, Limas, Azucar, Grenetina, Jugo de Limón"));
+        notas.add(new Nota("Chessecake New York", "Ingredientes: Galletas Maria, Queso Crema, Jugo de Limón, Azucar Glass, Frutos Rojos, Grenetina"));
+        notas.add(new Nota("Tartaleta de Frutos Rojos", "Ingredientes: Base para Galletas, Queso Philadelfhia, Frutos Rojos, Caramelo"));
+        notas.add(new Nota("Pie de Queso y Mango", "Ingredientes: Mangos, Queso Crema, Base de Galleta, Azucar, Grenetina"));
+        notas.add(new Nota("Galletas de Avena y Pasas", "Ingredientes: Harina, Avena, Pasas, Sal, Azucar, Levadura"));
+        notas.add(new Nota("Budin", "Ingredientes: Migas de Pan, Azucar Caramelizada, Leche, Pasas"));
+        notas.add(new Nota("Tres Leches", "Ingredientes: Leche Condensada, Leche Evaporada, Leche Normal, Biscocho de Vainilla, Azucar Glass, Huevos"));
+        notas.add(new Nota("Sorbete de Fresa", "Ingredientes: Fresas, Hielo, Azucar, Ron, Vodka, Jugo de Limón"));
+        notas.add(new Nota("Granita de Sandia", "Ingredientes: Sandia, Hielo, Jugo de Limón, Azucar, Vodka"));
+        notas.add(new Nota("Fusión de Limonada Verde", "Ingredientes: Jugo de Limón, Té Verde, Pimienta Negra, Esencia de Almendra "));
+        notas.add(new Nota("Horchata", "Ingredientes: Arroz, Morro, Cacahuate, Semilla de Ayote, Lomones, Agua, Azucar, Hielo"));
+        notas.add(new Nota("Tamarindo", "Ingredientes: Agua, Azucar, Tamarindos, Hielo"));
 
 
         adapter = new NotasAdapter();
