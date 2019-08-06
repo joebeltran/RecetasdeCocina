@@ -15,21 +15,4 @@
         android:layout_alignParentStart="true"
         />
 
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/btn_nueva_nota"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="20dp"
-        android:layout_marginRight="20dp"
-        android:layout_marginBottom="20dp"
-        android:clickable="true"
-        android:focusable="true"
-        android:src="@android:drawable/ic_menu_edit"
-        app:backgroundTint="#E11B5E20"
-        app:fabSize="normal"
-        android:onClick="onNuevaNota" />
-
 </RelativeLayout>
