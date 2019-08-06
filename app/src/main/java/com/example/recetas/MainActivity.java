@@ -4,10 +4,12 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
@@ -36,6 +38,18 @@ public class MainActivity extends AppCompatActivity {
         lista_notas.setAdapter(adapter);
     }
 
+        public void onNuevaNota(View view) {
+        Intent intent = new Intent(this, EditaNotaActivity.class);
+        startActivityForResult(intent, 0);
+
+        lista_notas.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+
+            }
+        });
+    }
+
     private class NotasAdapter extends ArrayAdapter<Nota>{
          NotasAdapter() {
             super(MainActivity.this,R.layout.item_lista_notas, notas);
@@ -44,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
     @NonNull
     @Override
     public View getView(int position, View convertView, ViewGroup parent){
-        View result = convertView
+        View result = convertView;
                 if (result == null){
                     LayoutInflater inflater = getLayoutInflater();
                     result = inflater.inflate(R.layout.item_lista_notas, parent, false);
